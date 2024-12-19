@@ -1,0 +1,92 @@
+/* Điều chỉnh header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm hiệu ứng đổ bóng */
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Điều chỉnh Navbar */
+.navbar {
+    height: 80px; /* Chiều cao của Navbar */
+    padding: 10px 20px; /* Căn lề bên trong */
+    background-color: #4CAF50; /* Màu xanh lá */
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Giãn cách giữa logo và các mục */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(251, 251, 251); /* Màu chữ trắng */
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    color: #f1f1f1; /* Hiệu ứng hover */
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hiển thị các mục thành hàng ngang */
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.navbar ul li a:hover {
+    color: #FFD700; /* Đổi sang màu vàng khi hover */
+}
+
+/* Chỉnh sửa ảnh trong gallery */
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #98a8b9;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Hiệu ứng phóng to ảnh khi di chuột vào */
+.gallery img {
+    transition: transform 0.3s ease; /* Thời gian và hiệu ứng chuyển tiếp */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Phóng to ảnh lên 10% */
+}
+/* Container tổng chứa các giải chạy */
+.gallery-container {
+    width: 100%; /* Hoặc sử dụng giá trị cố định như 1200px */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Photo item */
+
+
+
